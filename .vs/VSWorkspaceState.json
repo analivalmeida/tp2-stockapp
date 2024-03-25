@@ -5,6 +5,6 @@
     "\\StockApp\\StockApp.Domain",
     "\\StockApp\\StockApp.Domain\\Entities"
   ],
-  "SelectedNode": "\\StockApp\\StockApp.Domain\\Entities\\Category.cs",
+  "SelectedNode": "\\StockApp\\StockApp.Domain\\Entities\\Product.cs",
   "PreviewInSolutionExplorer": false
 }
