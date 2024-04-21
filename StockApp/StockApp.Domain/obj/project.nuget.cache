@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hAdodUf5xJOOciiGunaA55FDVmFxqIy+2yxlkX90FRarmGqQ9WNxTIPS0n/7jwrqVRNXt3hlm7TDn8xrINmp8Q==",
+  "dgSpecHash": "WdZY4VY2hYKJOjaId5I37Szw5Jl2TR+q5LC5wxahD3vvqWjryZcF2B/FiouICI0qTJJwyubImHmw4Pf6JnUy3g==",
   "success": true,
-  "projectFilePath": "C:\\tp\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj",
+  "projectFilePath": "C:\\Repositorios\\Fatec\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

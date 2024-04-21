@@ -1982,23 +1982,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\2971392311046\\.nuget\\packages\\": {},
+    "C:\\Users\\Windows 10 Pro X-64\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\tp\\tp2-stockapp\\StockApp\\StockApp.WebUI\\StockApp.WebUI.csproj",
+      "projectUniqueName": "C:\\Repositorios\\Fatec\\tp2-stockapp\\StockApp\\StockApp.WebUI\\StockApp.WebUI.csproj",
       "projectName": "StockApp.WebUI",
-      "projectPath": "C:\\tp\\tp2-stockapp\\StockApp\\StockApp.WebUI\\StockApp.WebUI.csproj",
-      "packagesPath": "C:\\Users\\2971392311046\\.nuget\\packages\\",
-      "outputPath": "C:\\tp\\tp2-stockapp\\StockApp\\StockApp.WebUI\\obj\\",
+      "projectPath": "C:\\Repositorios\\Fatec\\tp2-stockapp\\StockApp\\StockApp.WebUI\\StockApp.WebUI.csproj",
+      "packagesPath": "C:\\Users\\Windows 10 Pro X-64\\.nuget\\packages\\",
+      "outputPath": "C:\\Repositorios\\Fatec\\tp2-stockapp\\StockApp\\StockApp.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\2971392311046\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Windows 10 Pro X-64\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2007,15 +2007,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\tp\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\StockApp.Infra.IoC.csproj": {
-              "projectPath": "C:\\tp\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\StockApp.Infra.IoC.csproj"
+            "C:\\Repositorios\\Fatec\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\StockApp.Infra.IoC.csproj": {
+              "projectPath": "C:\\Repositorios\\Fatec\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\StockApp.Infra.IoC.csproj"
             }
           }
         }
@@ -2048,7 +2047,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
