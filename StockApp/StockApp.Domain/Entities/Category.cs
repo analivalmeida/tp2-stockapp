@@ -12,7 +12,7 @@ namespace StockApp.Domain.Entities
     {
         #region Atributos
         public int Id { get; set; }
-            public string Name { get; set; }
+        public string Name { get; set; }
         #endregion
 
         #region Construtores
@@ -27,7 +27,7 @@ namespace StockApp.Domain.Entities
             Id = id;
             ValidateDomain(name);
         }
-        
+
         public ICollection<Product> Products { get; set; }
         #endregion
 

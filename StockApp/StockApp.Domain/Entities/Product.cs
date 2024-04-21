@@ -1,9 +1,4 @@
 ﻿using StockApp.Domain.Validation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StockApp.Domain.Entities
 {
@@ -18,16 +13,19 @@ namespace StockApp.Domain.Entities
         public string Image { get; set; }
         public int CategoryId { get; set; }
         #endregion
-
-        public Product()
+        #region Construtores
+        public Product(int id, string name, string description, string urlImage, decimal price, int quantity)
         {
-
+            ValidateDomain(id, name, description, urlImage, price, quantity);
         }
+        #endregion
 
         public Category Category { get; set; }
 
-        private void ValidateDomain(string name, string description, decimal price, int stock, string image)
+        private void ValidateDomain(int id, string name, string description, string urlImage, decimal price, int quantity)
         {
+            DomainExceptionValidation.When(id < 0, "Invalid Id value.");
+
             DomainExceptionValidation.When(string.IsNullOrEmpty(name),
                 "Invalid name, name is required.");
 
@@ -40,12 +38,11 @@ namespace StockApp.Domain.Entities
             DomainExceptionValidation.When(description.Length < 5,
                 "Invalid description, too short, minimum 5 characters.");
 
+            DomainExceptionValidation.When(urlImage.Length > 50, "Invalid image url, too long, maximum 50 characters.");
+
             DomainExceptionValidation.When(price < 0, "Invalid price negative value.");
 
-            DomainExceptionValidation.When(stock < 0, "Invalid stock negative value.");
-
-            DomainExceptionValidation.When(image.Length > 250, "Invalid image name, too long, maximum 250 characters.");
-
+            DomainExceptionValidation.When(quantity < 0, "Invalid quantity negative value.");
         }
     }
 }

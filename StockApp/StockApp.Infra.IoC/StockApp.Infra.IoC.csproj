@@ -10,6 +10,7 @@
     <ProjectReference Include="..\StockApp.Application\StockApp.Application.csproj" />
     <ProjectReference Include="..\StockApp.Domain\StockApp.Domain.csproj" />
     <ProjectReference Include="..\StockApp.Infra.Data\StockApp.Infra.Data.csproj" />
+	<ProjectReference Include="..\StockApp.Domain.Test\StockApp.Domain.Test.csproj" />
   </ItemGroup>
 
 </Project>
