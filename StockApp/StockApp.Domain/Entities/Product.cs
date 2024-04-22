@@ -24,6 +24,10 @@ namespace StockApp.Domain.Entities
 
         }
 
+        public Product(int id, string name, string description, decimal price, int stock, string image)
+        {
+        }
+
         public Category Category { get; set; }
 
         private void ValidateDomain(string name, string description, decimal price, int stock, string image)
